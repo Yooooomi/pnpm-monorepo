@@ -1,0 +1,13 @@
+{
+  "name": "@test/shared",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@test/tools": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "@types/react": "*"
+  }
+}

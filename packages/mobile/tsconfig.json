@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*.ios", "*/index.ios", "*.native", "*/index.native"]
+    }
+  }
+}
